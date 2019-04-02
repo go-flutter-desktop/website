@@ -1,0 +1,63 @@
+{{ define "title"}} {{ .Site.Title}} {{end}}
+{{ define "header"}} {{ partial "header" .}} {{end}}
+{{ define "main"}}
+
+<div id="main">
+  <div id="hero">
+    <h1>{{.Title}}</h1>
+    <p>Hover brings Flutter apps to the desktop.</p>
+  </div>
+  <div id="action-buttons">
+    <a class="button primary big" href="https://github.com/go-flutter-desktop/hover">Getting started</a>
+    <a class="button outline big" href="https://github.com/go-flutter-desktop/hover">View on Github</a>
+    <!-- <p>Zip-archive, includes all the source and site example files</p> -->
+  </div>
+  <!-- <div class="message focus" data-component="message"> <span class="close small"></span>
+    <a class="button inverted small " href="https://imperavi.com/kube/" >Kube </a> from <a href="https://imperavi.com/">imperavi</a> is an awesome <mark>CSS & JS Framework</mark> and i designed this template for <a href="https://gohugo.io">hugo</a> with the same original philosophy !
+  </div> -->
+  <div id="hover-features">
+    <div class="row gutters">
+      <div class="col col-4 item">
+        <figure>
+          <img alt="Baseline" height="48" src="{{ "/img/kube/icon-baseline.png" | relURL }}" width="48">
+        </figure>
+        <h3>Cross-platform</h3>
+        <p>Hover works on all modern desktop operating systems: Windows, MacOS and Linux.</p>
+      </div>
+      <div class="col col-4 item">
+        <figure>
+          <img alt="Typography" height="48" src="{{ "/img/kube/icon-typo.png" | relURL }}" width="48">
+        </figure>
+        <h3>Typography</h3>
+        <p>We obsess over typography, and it shows throughout Kube.</p>
+      </div>
+      <div class="col col-4 item">
+        <figure>
+          <img alt="Minimalism" height="48" src="{{ "/img/kube/icon-minimalism.png" | relURL }}" width="48">
+        </figure>
+        <h3>Expanding on Flutter</h3>
+        <p>Hover uses existing Flutter tooling whenever possible, prepare for a deja-vu!</p>
+      </div>
+    </div>
+    <div class="row gutters">
+      <div class="col col-4 item">
+        <h4>Cross-platform</h4>
+        <p>Hover works on all modern desktop operating systems: Windows, MacOS and Linux.</p>
+      </div>
+      <div class="col col-4 item">
+        <h4>Cross-platform</h4>
+        <p>Hover works on all modern desktop operating systems: Windows, MacOS and Linux.</p>
+      </div>
+      <div class="col col-4 item">
+        <h4>License</h4>
+        <p>
+          Hover licensed under
+          <a href="https://github.com/go-flutter-desktop/hover/blob/master/LICENSE">BSD 3-clause license</a>.<br>
+          Hover is absolutely free for personal or commercial use.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+{{ end }}
+{{ define "footer"}} {{ partial "footer" .}} {{end}}

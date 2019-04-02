@@ -1,3 +1,25 @@
-baseURL = "http://example.org/"
+baseURL = "https://hover.build/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Hover"
+theme = "kube"
+description = "Hover brings Flutter apps to the desktop."
+Paginate = 4
+[Params]
+  RSSLink = "/index.xml"
+  author = "newpixcom" # add your company name
+  github = "GeertJohan" # add your github profile name
+  twitter = "GeertJohan" # add your twitter profile
+  email = "gjr19912@gmail.com"
+
+[[menu.main]]
+    name = "Docs"
+    weight = -300
+    url = "/docs/"
+[[menu.main]]
+    name = "Faq"
+    weight = -200
+    url = "/faq/"
+[[menu.main]]
+    name = "GitHub"
+    weight = -100
+    url = "https://github.com/go-flutter-desktop/hover"
