@@ -137,7 +137,7 @@ body {
   line-height: 24px; }
 
 body {
-  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-family: 'Open Sans', sans-serif;
   color: #313439;
   background-color: transparent; }
 
@@ -148,7 +148,7 @@ a:hover {
   color: #f03c69; }
 
 h1.title, h1, h2, h3, h4, h5, h6 {
-  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: bold;
   color: #0d0d0e;
   text-rendering: optimizeLegibility;
@@ -971,7 +971,7 @@ form,
 
 button,
 .button {
-  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 15px;
   color: #fff;
   background-color: #1c86f2;

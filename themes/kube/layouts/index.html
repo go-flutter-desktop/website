@@ -4,7 +4,8 @@
 
 <div id="main">
   <div id="hero">
-    <h1>{{.Title}}</h1>
+    <img src="/img/hover.svg" />
+    <div>Hover</div>
     <p>Hover brings Flutter apps to the desktop.</p>
   </div>
   <div id="action-buttons">
@@ -19,42 +20,43 @@
     <div class="row gutters">
       <div class="col col-4 item">
         <figure>
-          <img alt="Baseline" height="48" src="{{ "/img/kube/icon-baseline.png" | relURL }}" width="48">
+          <img alt="Hot-reload" height="48" src="{{ "/img/rocket.svg" | relURL }}" width="48">
         </figure>
         <h3>Cross-platform</h3>
         <p>Hover works on all modern desktop operating systems: Windows, MacOS and Linux.</p>
       </div>
       <div class="col col-4 item">
         <figure>
-          <img alt="Typography" height="48" src="{{ "/img/kube/icon-typo.png" | relURL }}" width="48">
+          <img alt="Open-Source" height="48" src="{{ "/img/plus.svg" | relURL }}" width="48">
         </figure>
-        <h3>Typography</h3>
-        <p>We obsess over typography, and it shows throughout Kube.</p>
+        <h3>Expanding on Flutter</h3>
+        <p>Hover uses Flutter tooling whenever possible, to keep things simple and recognizable. Prepare for a
+          deja-vu!</p>
       </div>
       <div class="col col-4 item">
         <figure>
-          <img alt="Minimalism" height="48" src="{{ "/img/kube/icon-minimalism.png" | relURL }}" width="48">
+          <img alt="Plugins" height="48" src="{{ "/img/puzzle-piece.svg" | relURL }}" width="48">
         </figure>
-        <h3>Expanding on Flutter</h3>
-        <p>Hover uses existing Flutter tooling whenever possible, prepare for a deja-vu!</p>
+        <h3>Plugin support</h3>
+        <p>Existing plugins can be used in combination with Hover.</p>
       </div>
     </div>
     <div class="row gutters">
       <div class="col col-4 item">
-        <h4>Cross-platform</h4>
-        <p>Hover works on all modern desktop operating systems: Windows, MacOS and Linux.</p>
+        <h4>Hot reload</h4>
+        <p>Hover uses the existing flutter tooling to provide hot reload. Just <kbd>hover run</kbd>.</p>
       </div>
       <div class="col col-4 item">
-        <h4>Cross-platform</h4>
-        <p>Hover works on all modern desktop operating systems: Windows, MacOS and Linux.</p>
-      </div>
-      <div class="col col-4 item">
-        <h4>License</h4>
+        <h4>Open-Source</h4>
         <p>
-          Hover licensed under
+          Hover is licensed under
           <a href="https://github.com/go-flutter-desktop/hover/blob/master/LICENSE">BSD 3-clause license</a>.<br>
-          Hover is absolutely free for personal or commercial use.
+          Hover is free for personal and commercial use.
         </p>
+      </div>
+      <div class="col col-4 item">
+        <h4>Golang</h4>
+        <p>Hover uses go-flutter, a Go/GLFW embedder for Flutter, to bring your app to the desktop.</p>
       </div>
     </div>
   </div>

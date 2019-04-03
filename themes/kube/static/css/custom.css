@@ -1,0 +1,22 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+div#hero {
+	vertical-align: middle;
+}
+
+div#hero img {
+	height: 64px !important;
+}
+
+div#hero div {
+	font-size: 2em;
+	color: #999999;
+}
+
+div#top-brand img {
+	height: 24px;
+	position: relative;
+	top: 4px;
+}

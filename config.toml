@@ -6,11 +6,15 @@ description = "Hover brings Flutter apps to the desktop."
 Paginate = 4
 [Params]
   RSSLink = "/index.xml"
-  author = "newpixcom" # add your company name
-  github = "GeertJohan" # add your github profile name
-  twitter = "GeertJohan" # add your twitter profile
+  author = "GeertJohan"
+  github = "GeertJohan"
+  twitter = "GeertJohan"
   email = "gjr19912@gmail.com"
 
+[[menu.main]]
+    name = "Blog"
+    weight = -400
+    url = "/posts/"
 [[menu.main]]
     name = "Docs"
     weight = -300
