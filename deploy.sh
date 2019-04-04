@@ -4,6 +4,6 @@
 # really don't feel like writing k8s manifests today and hack, this server is
 # just haning around anyway..
 
-hugo build
+hugo
 
-scp public/* sherlock4.geertjohan.net:/srv/hover.build
+scp -r public/* sherlock4.geertjohan.net:/srv/hover.build
