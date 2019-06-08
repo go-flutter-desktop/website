@@ -1,7 +1,7 @@
 +++
 title = "Using plugins"
 description = "Plugins "
-weight = 10
+weight = 30
 toc = true
 bref = "Plugins are an important part when building applications that interact with the host system. This guide explains how to use plugins across Android, iOS and desktop with Hover."
 +++
