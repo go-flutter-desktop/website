@@ -6,7 +6,7 @@ Additions are welcome. Feel free to [open an issue](https://github.com/go-flutte
 
 ## Developing
 
-Install hugo and run `hugo serve --cleanDestinationDir` to test local changes before opening a PR.
+Install [hugo](https://gohugo.io/) and run `hugo serve --cleanDestinationDir` to test local changes before opening a PR.
 
 ## Hosting
 

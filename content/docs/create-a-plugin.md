@@ -1,21 +1,21 @@
 +++
 title = "Create a plugin"
 description = "How to create a plugin with go-flutter."
-date = "2019-04-03T16:59:36+02:00"
-weight = 20
-draft = true
-bref = ""
+weight = 50
 toc = true
+bref = "A thorough explanation of how to create and publish a plugin for use with hover."
 +++
 
-# Create a plugin
+### Plugin compatibility
 
-Plugins allow flutter applications to communicate with the host platform. 
+Some plugins may be standalone; they expose a feature that desktops provide, but other platforms don't. In many cases though, a feature is already exposed for Android and iOS, but not yet for desktop.
 
-## New plugin
+In this guide we'll take a look at the `shared_preferences` plugin, and how to implement it in Go, while being compatible with the existing shared_preferences package.
 
-DO this
+### New plugin
 
-## Codecs
+This is still a placeholder page, content TODO.
+
+### Codecs
 
 DO That
