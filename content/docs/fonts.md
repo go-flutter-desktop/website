@@ -8,10 +8,10 @@ bref = "Fonts style your application, but how to use fonts on desktop? This guid
 
 ### Fonts are assets
 
-This is a placeholder page, content TODO.
+**Question:** What is the issue with fonts and cross-platform?
 
-<What is the issue with fonts and cross-platform?>
-<How to solve that?>
+**Answer:** No text visible? Make sure you have used fonts added to the project. The default font for `MaterialApp`, Roboto, is not installed on all machines.
+
 
 ### Example
 
