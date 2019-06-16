@@ -52,6 +52,7 @@ Make sure you have a main_desktop.dart that contains the following code before `
 
 ```dart
 debugDefaultTargetPlatformOverride = TargetPlatform.fuchsia;
+```
 
 ### Run with hot-restart
 
