@@ -3,16 +3,22 @@ title = "FAQ"
 description = "Asked and answered"
 +++
 
-## Hover looks awesome. Who is it for?
+#### How does this compare to the "official" flutter desktop?
 
-Hover is for
+A elaborate answer was given in [issue#191](https://github.com/go-flutter-desktop/go-flutter/issues/191).
 
-## Question?
+#### Is hover compatible with Visual Studio Code?
 
-Answer
+Yes, more details available in [issue#129](https://github.com/go-flutter-desktop/go-flutter/issues/129).
 
-## Question 2?
+#### Is hover compatible with Android Studio?
 
-Multi-paragraph...
+No, the flutter-intellij plugin doesn't support attaching to existing process,
+[issue#213](https://github.com/go-flutter-desktop/go-flutter/issues/213).
 
-Answer.
+#### Where can I find example of go-flutter plugins?
+
+On our [examples](https://github.com/go-flutter-desktop/examples), we shared
+multiples plugins implementations. They are easy to explore and run.
+
+For more sophisticate plugins, look at our [plugins](https://github.com/go-flutter-desktop/plugins) repo.
