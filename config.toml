@@ -11,10 +11,10 @@ Paginate = 4
   twitter = "GeertJohan"
   email = "gjr19912+hover-dot-build@gmail.com"
 
-# [[menu.main]]
-    # name = "Blog"
-    # weight = -400
-    # url = "/blog/"
+[[menu.main]]
+    name = "Blog"
+    weight = -400
+    url = "/blog/"
 [[menu.main]]
     name = "Docs"
     weight = -300
