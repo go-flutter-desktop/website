@@ -46,7 +46,7 @@ The [Hover](https://github.com/go-flutter-desktop/hover) tool was created to mak
 
 **Additionally**, We also had minors input into the Flutter engine project. With *go-flutter*, we created a reliable unofficial shell that is used by dozens of users. We hope to create better consensus on desktop shells, differences between *go-flutter* and *FDE* were found and aligned, which is good. Interaction/discussion between different official/unofficial projects shapes the **'Google-controlled'** part of the Flutter project.
 
-**Overall**, I'm very proud of what the project has become. I qualify the project to be **very** mature. We are a real *'competitor'* to the official desktop shells, with an alternative approach. Our primary selling points are:
+**Overall**, I'm very proud of what the project has become. I qualify the project to be **very** mature. We are now a real alternative to the official desktop shells, with a different approach. Our primary selling points are:
 
 - Easy plugins writing, it is [more accessible](https://github.com/go-flutter-desktop/go-flutter/issues/191#issuecomment-511384007) (and by the nature of Golang, more maintainable) in *go-flutter* than on the official project.
 - Single code-base for windows/mac/linux applications.
